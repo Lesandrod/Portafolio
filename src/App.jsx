@@ -8,7 +8,7 @@ import { Routes, BrowserRouter, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <VStack style={{ backgroundColor: "rgba(92, 131, 116, 1)" }}>
+      <VStack className="boxygradient">
         <Navbar />
 
         <Routes>

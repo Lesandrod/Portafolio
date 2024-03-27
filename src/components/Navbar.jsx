@@ -22,8 +22,8 @@ const Navbar = () => {
             position={'absolute'}
             fontSize={{ base: '14px', md: '15px', lg: '17px' }}
         >
-            <HStack m={3} py={3} px={7} bg={"#242424"}
-                color={"#e4e1e1"}
+            <HStack m={3} py={3} px={7} bg={"#092635"}
+                color={"#FFEAA7"}
                 borderRadius={24}
                 justify='space-between'
                 alignItems='center'
@@ -57,8 +57,8 @@ const Navbar = () => {
                             }}
                             fontFamily={'Russo One'}
                             style={{
-                                borderBottom: `3px solid ${link.path === href ? '#00a8b0' : '#242424'}`,
-                                color: '#e4e1e1',
+                                borderBottom: `3px solid ${link.path === href ? '#FFEAA7' : '#092635'}`,
+                                color: '#E2F4C5',
 
                             }}
                         >

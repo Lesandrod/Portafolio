@@ -22,6 +22,7 @@ const Principal = () => {
           style={{ justifyContent: "center", alignContent: "center" }}
         >
           <Text
+            className="animate-fade-right animate-once animate-duration-[2000ms]"
             fontFamily={"Russo One"}
             color="#FFBB64"
             fontSize={{ base: "3xl", lg: "5xl" }}
@@ -30,6 +31,7 @@ const Principal = () => {
             Hey, I'm Lennard
           </Text>
           <Text
+            className="animate-fade-right animate-once animate-duration-[2000ms]"
             fontFamily={"Russo One "}
             fontSize={{ base: "2xl", lg: "4xl" }}
             color="#9EC8B9"
@@ -75,7 +77,12 @@ const Principal = () => {
 
         <Box style={{ justifyContent: "", alignContent: "center" }}>
           <center>
-            <Image width={{ base: 260, md: 410 }} src={LogoSVG} alt="dev" />
+            <Image
+              className="animate-pulse animate-rotate-y animate-infinite animate-duration-[6000ms] animate-delay-4000"
+              width={{ base: 260, md: 410 }}
+              src={LogoSVG}
+              alt="dev"
+            />
           </center>
         </Box>
       </Box>

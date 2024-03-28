@@ -13,9 +13,8 @@ const Navbar = () => {
 
   return (
     <Box
-      className="boxygradient"
+      className="boxygradient animate-fade-down"
       w={"100%"}
-      pt={1}
       position={"fixed"}
       fontSize={{ base: "14px", md: "15px", lg: "17px" }}
       alignItems={"center"}

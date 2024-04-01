@@ -28,8 +28,8 @@ const Aboutme = () => {
             <iframe
               id="online-alarm-kur-iframe"
               src="https://embed-countdown.onlinealarmkur.com/es/#2024-04-06T20:00:00@America%2FLima"
-              width={700}
-              height={384}
+              scrolling="no"
+              className=" w-[300px] h-[200px]  md:w-[500px] md:h-[300px]"
               style={{
                 display: "block",
                 margin: "0px auto",

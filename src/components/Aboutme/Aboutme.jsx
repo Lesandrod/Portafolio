@@ -17,9 +17,33 @@ const Aboutme = () => {
         borderRadius={20}
         justifyContent={"space-evenly"}
       >
-        <Box style={{ justifyContent: "", alignContent: "center" }}>
+        <Box
+          style={{
+            justifyContent: "",
+            alignContent: "center",
+            color: "#042035",
+          }}
+        >
           <center>
-            <Image width={{ base: 260, md: 410 }} src={LogoSVG} alt="dev" />
+            <iframe
+              id="online-alarm-kur-iframe"
+              src="https://embed-countdown.onlinealarmkur.com/es/#2024-04-06T20:00:00@America%2FLima"
+              width={700}
+              height={384}
+              style={{
+                display: "block",
+                margin: "0px auto",
+                border: "0px",
+              }}
+              bis_size={{
+                x: 569,
+                y: 455,
+                w: 360,
+                h: 80,
+                abs_x: 569,
+                abs_y: 455,
+              }}
+            ></iframe>
           </center>
         </Box>
       </Box>

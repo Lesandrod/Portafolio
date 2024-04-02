@@ -12,7 +12,7 @@ const Aboutme = () => {
         color={"#092635"}
         w={"100%"}
         display={{ md: "flex" }}
-        bg={"#092635"}
+        bg={"#608574"}
         my={4}
         borderRadius={20}
         justifyContent={"space-evenly"}
